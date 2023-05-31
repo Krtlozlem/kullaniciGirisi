@@ -15,7 +15,7 @@ public class kullaniciGirisi {
 
         if(userName.equals("patika") && passwords.equals("java123")){
             System.out.println("Girişiniz Başarılı :) ");
-
+          //equals komutu string metotlarda eşit mi? anlamını taşır.
         }else{
             System.out.println("Başarısız Giriş Yaptınız! Tekrar Deneyin");
         }
